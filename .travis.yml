@@ -1,23 +1,21 @@
 # Install the apt prerequisites
-addons:
-  apt:
-    packages:
-      - python-pygments
+language: go
 
-        # Clean and don't fail
-    install:
-      - rm -rf public || exit 0
+go:
+  - master # This uses automatically the latest version of go
 
-        # Build the website
-    script:
-      - bin/hugo
+install:
+  - go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI
 
-        # Deploy to GitHub pages
-    deploy:
-      provider: pages
-      skip_cleanup: true
-      local_dir: public
-      github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-      repo: opentechinstitute/opentechinstitute.github.io
-      on:
-        branch: master
+script:
+  - hugo
+
+    # Deploy to GitHub pages
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: public
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  repo: opentechinstitute/opentechinstitute.github.io
+  on:
+    branch: master
