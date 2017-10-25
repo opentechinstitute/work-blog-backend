@@ -3,9 +3,12 @@
 
 #go:
 #  - master # This uses automatically the latest version of go
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq hugo
 
-install:
-  - apt install hugo
+#install:
+#  - apt install hugo
 #  - go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI
 
 script:
