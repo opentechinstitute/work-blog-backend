@@ -1,14 +1,15 @@
 # Install the apt prerequisites
-language: go
+#language: go
 
-go:
-  - master # This uses automatically the latest version of go
+#go:
+#  - master # This uses automatically the latest version of go
 
-#install:
+install:
+  - apt install hugo
 #  - go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI
 
 script:
-  - bin/hugo
+  - hugo
 
     # Deploy to GitHub pages
 deploy:
