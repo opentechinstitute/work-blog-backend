@@ -4,7 +4,7 @@ title: "Mozfest and Matrix, Part 2"
 tags: ["MozFest 2017", "matrix", "portable", "decentralization"]
 categories: ["MozFest 2017"]
 date: 2017-09-12T15:40:02-04:00
-draft: false
+draft: true 
 ---
 My estimates of what we need to accomplish before MozFest are roughly:
 
