@@ -1,8 +1,8 @@
 ---
 title: "Matrix and OTI at Mozfest"
 author: "Ross Schulman"
-date: 2017-10-30T17:00:08Z
-draft: true
+date: 2017-11-01T17:00:08Z
+draft: false 
 ---
 The annual internet freedom conference/party [Mozilla Festival](https://mozillafestival.org/) (Mozfest) was this past weekend, and OTI ended up facilitating an astonishing number of sessions. One that I spent some time working on was aimed at the decentralization track of the festival and involved creating a local and portable chat server using the open source Matrix protocol for the use of the Mozfest attendees. Decentralization means different things to different people but in this context I wanted to focus on demonstrating a viable alternative to the use of something like Slack or Google Hangouts that retained the control over the service in the hands of the community using it--the attendees of Mozfest. 
 
