@@ -4,11 +4,11 @@ author: "Ross Schulman"
 date: 2017-11-01T17:00:08Z
 draft: false 
 ---
-The annual internet freedom conference/party [Mozilla Festival](https://mozillafestival.org/) (Mozfest) was this past weekend, and OTI ended up facilitating an astonishing number of sessions. One that I spent some time working on was aimed at the decentralization track of the festival and involved creating a local and portable chat server using the open source Matrix protocol for the use of the Mozfest attendees. Decentralization means different things to different people but in this context I wanted to focus on demonstrating a viable alternative to the use of something like Slack or Google Hangouts that retained the control over the service in the hands of the community using it--the attendees of Mozfest. 
+At [Mozilla Festival](https://mozillafestival.org/) (Mozfest for short), the annual open web/internet freedom conference/party, last weekend, OTI facilitating an [astonishing number of sessions](https://www.newamerica.org/oti/blog/oti-mozfest-2017/). Within the Decentralization space, I organized a local and portable chat server, using Matrix, that was available to attendees as an alternative to something like Slack or Google Hangouts. Decentralization means different things to different people but in this context I wanted to focus on demonstrating a viable alternative to the use of something like Slack or Google Hangouts that retained the control over the service in the hands of the community using it--the attendees of Mozfest. 
 
 What is Matrix?
 ---
-[Matrix](https://matrix.org/) is a relatively new protocol for federated transfer of arbitrary data. The fact that it is federated means that Alice can have her own node and Bob can have his and the two of them can still exchange messages. By and large, the matrix protocol is used to exchange real-time chat or images, much like IRC or Slack does, but it has also been used for things such as MIDI control and WebVR. The protocol also implements end to end encryption.
+[Matrix](https://matrix.org/) is a relatively new protocol for federated transfer of arbitrary data. The fact that it is federated means that two friends, Alice and Bob, can communicate, each using their own server. Alice can have her own node and Bob can have his and the two of them can still exchange messages. By and large, the matrix protocol is used to exchange real-time chat or images, much like IRC or Slack does, but it has also been used for things such as MIDI control and WebVR. The protocol also implements end to end encryption.
 
 What did We Build?
 ---
